@@ -15,6 +15,7 @@ struct TestSwiftUIView: View {
     }
 }
 
+/// A test view controller
 class TestViewController: UIViewController {
 
 
@@ -22,5 +23,8 @@ class TestViewController: UIViewController {
 
     }
 
-    
+    /// Does something...
+    func doSomething() {
+
+    }
 }
