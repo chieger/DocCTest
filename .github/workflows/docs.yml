@@ -34,7 +34,7 @@ jobs:
       #   run: mkdir docs
       - name: Generate Docs
         run: |
-          xcodebuild docbuild -scheme DocCTest -destination generic/platform=iOS OTHER_DOCC_FLAGS="--transform-for-static-hosting --hosting-base-path docctest --output-path docs"
+          xcodebuild docbuild -scheme DocCTest -destination generic/platform=iOS OTHER_DOCC_FLAGS="--transform-for-static-hosting --hosting-base-path DocCTest --output-path docs"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
