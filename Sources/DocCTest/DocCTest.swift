@@ -45,3 +45,8 @@ public enum TestEnum {
     /// This is, as you can imagine, something else entirely.
     case andYetAnother
 }
+
+/// A function to prove this whole automated docs build thing actually works as expected! 🏆
+public func doesThisActuallyWork() -> Bool {
+    return true
+}
