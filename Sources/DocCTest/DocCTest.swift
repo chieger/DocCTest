@@ -1,30 +1,47 @@
 import UIKit
 import SwiftUI
 
+/// The main DocCTest struct to test Doc Cstuff
 public struct DocCTest {
+
+    /// This is some text that says, "Hello, World!". I know, not super original 🤷‍♂️
     public private(set) var text = "Hello, World!"
 
     public init() {
     }
 }
 
-struct TestSwiftUIView: View {
+/// A SwiftUI Test View
+public struct TestSwiftUIView: View {
 
-    var body: some View {
+    public var body: some View {
         Text("This is only a test")
     }
 }
 
-/// A test view controller
-class TestViewController: UIViewController {
+/// A test view controller with some documentation stuff.
+public class TestViewController: UIViewController {
 
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
 
     }
 
     /// Does something...
-    func doSomething() {
+    public func doSomething() {
 
     }
+}
+
+/// A test enum with some description.
+public enum TestEnum {
+
+    /// Indicates something, not sure what
+    case something
+
+    /// This is something else, not the same thing
+    case somethingElse
+
+    /// This is, as you can imagine, something else entirely.
+    case andYetAnother
 }
